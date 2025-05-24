@@ -39,7 +39,7 @@ if __name__ == "__main__":
         question = input("What would you like to ask?: ").title()
         answer = choice(possible_answers)
         if question:
-            print(f"{name if name else "Your"} question: {question}")
+            print(f"{name + " asks:" if name else "Your question:"} {question}")
             print(f"Magic 8 Ball's answer: {answer}\n")
             ask_again = input("What to ask another question? (yes/no): ")
             if ask_again.lower() != 'yes':
