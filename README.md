@@ -4,6 +4,8 @@ A classic Magic 8-Ball command-line application written in Python.
 
 This project was created to demonstrate fundamental Python concepts including user input, conditional logic, functions, and creating executables with PyInstaller.
 
+![Magic 8 Ball Image](https://github.com/user-attachments/assets/dd0b7506-9ec4-4eb1-a787-0f59b5748a9e)
+
 ## Features
 
 * **Interactive Q&A:** Ask any yes/no question and get a classic 8-ball answer.
